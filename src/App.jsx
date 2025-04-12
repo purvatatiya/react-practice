@@ -1,28 +1,24 @@
-import { useState } from 'react'
-import Logos from './components/logos.component'
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import TextField from '@mui/material/TextField';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-      <Logos />
-      <Logos />
-      <h1>Purva Tatiya </h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Container maxWidth="sm">
+        <Box sx={{ bgcolor: '#cfe8fc', height: '100vh', width:"100vh" }}>
+        <Typography variant="h1"> To do list </Typography>
+
+        <Box component="section" sx={{ p: 2 }}>
+        <TextField sx={{width: "100%"}} id="outlined-basic" label="Type Text" variant="outlined" />
+    </Box>
+          </Box>
+      </Container>
+      
+  );
 }
 
 export default App
