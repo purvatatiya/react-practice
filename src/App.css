@@ -21,6 +21,10 @@
 .bg-color {
  background-color: #FFFFFF;
 }
+.taskinputcolor {
+ border: 2px;
+ border-color: #FFFFFF;
+}
 
 @keyframes logo-spin {
   from {

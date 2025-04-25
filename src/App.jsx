@@ -40,10 +40,7 @@ const App = () => {
       <Box sx={{ bgcolor: "#B07289", height: "100vh", width: "100vh" }}>
         <Typography variant="h1">ToDo List</Typography>
         <Box className="bg-color" component="section" sx={{ p: 2 }}>
-          <TaskInput onAddTask={addTask} 
-           sx={{
-            border: '5px solid #FF5733',  // Replace with your desired border color
-          }} />
+          <TaskInput className= "taskinputcolor" onAddTask={addTask} />
         </Box>
         <Box sx={{ p: 2 }}>
           <TaskList
