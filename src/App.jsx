@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <Container maxWidth="lg">
-      <Box sx={{ bgcolor: "#cfe8fc", height: "100vh", width: "100vh" }}>
+      <Box sx={{ bgcolor: "#B07289", height: "100vh", width: "100vh" }}>
         <Typography variant="h1">ToDo List</Typography>
         <Box className="bg-color" component="section" sx={{ p: 2 }}>
           <TaskInput onAddTask={addTask} />
