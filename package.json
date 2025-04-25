@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://purvatatiya.github.io/react-practice/",
+  "homepage": "https://purvatatiya.github.io/react-practice",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
