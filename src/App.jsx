@@ -39,10 +39,10 @@ const App = () => {
     <Container maxWidth="lg">
       <Box sx={{ bgcolor: "#B07289", height: "100vh", width: "100vh" }}>
         <Typography variant="h1">ToDo List</Typography>
-        <Box className="bg-color" component="section" sx={{ p: 2 }}>
-          <TaskInput className= "taskinputcolor" onAddTask={addTask} />
+        <Box className="bg-color" component="section" sx={{ p: 2, border:'2px solid #FF5733' }}>
+          <TaskInput  onAddTask={addTask}  />
         </Box>
-        <Box sx={{ p: 2 }}>
+        <Box sx={{ p: 2}}>
           <TaskList
             tasks={tasks}
             onDelete={deleteTask}
